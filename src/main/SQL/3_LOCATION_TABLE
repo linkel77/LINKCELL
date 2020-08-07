@@ -1,0 +1,7 @@
+CREATE TABLE LOCATION (
+id int IDENTITY(1,1) PRIMARY KEY,
+localizedName varchar(2),
+name varchar(100),
+isCountry bit,
+countryCode varchar(10)
+)
